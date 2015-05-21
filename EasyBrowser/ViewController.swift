@@ -19,5 +19,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func openPageInSafari(sender: UIButton) {
+        if let url = NSURL(string: "http://developer.apple.com") {
+            UIApplication.sharedApplication().openURL(url)
+        }
+    }
+    
 }
 
