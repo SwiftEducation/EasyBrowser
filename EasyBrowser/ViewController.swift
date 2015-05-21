@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var webView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,9 +21,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func openPageInSafari(sender: UIButton) {
+    @IBAction func openPage(sender: UIButton) {
         if let url = NSURL(string: "http://developer.apple.com") {
-            UIApplication.sharedApplication().openURL(url)
+            let request = NSURLRequest(URL: url)
+            webView.loadRequest(request)
         }
     }
     
