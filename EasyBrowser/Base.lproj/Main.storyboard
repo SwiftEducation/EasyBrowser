@@ -30,6 +30,9 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits" keyboardType="URL" returnKeyType="go"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="BYZ-38-t0r" id="I8R-tj-Yb4"/>
+                                            </connections>
                                         </textField>
                                     </barButtonItem>
                                     <barButtonItem systemItem="rewind" id="0vH-SF-cbJ"/>
