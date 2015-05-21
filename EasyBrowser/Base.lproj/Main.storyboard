@@ -35,8 +35,16 @@
                                             </connections>
                                         </textField>
                                     </barButtonItem>
-                                    <barButtonItem systemItem="rewind" id="0vH-SF-cbJ"/>
-                                    <barButtonItem systemItem="fastForward" id="yzF-O3-adz"/>
+                                    <barButtonItem systemItem="rewind" id="0vH-SF-cbJ">
+                                        <connections>
+                                            <action selector="goBack" destination="h5B-fS-aed" id="7se-JK-laW"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="fastForward" id="yzF-O3-adz">
+                                        <connections>
+                                            <action selector="goForward" destination="h5B-fS-aed" id="eYi-V6-bNP"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
