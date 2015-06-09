@@ -2,7 +2,7 @@
 
 # EasyBrowser
 
-## Level 3, Five Lessons
+### Level 3, Five Lessons
 
 Introduce students to WebKit, and show them how to integrate a UIWebView within ther apps.  Practice using delegates, delegation and protocols to implement app behavior.
 
@@ -10,6 +10,6 @@ Introduce students to WebKit, and show them how to integrate a UIWebView within 
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-# License
+## License
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/), by Yong Bakos.
