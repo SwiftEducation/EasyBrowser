@@ -1,4 +1,4 @@
-<img align="right" src="https://raw.github.com/SwiftEducation/EasyBrowser/master/EasyBrowser/Images.xcassets/AppIcon.appiconset/Icon-Spotlight-40@2x.png" />
+<img align="right" src="https://github.com/SwiftEducation/EasyBrowser/raw/master/EasyBrowser/Images.xcassets/AppIcon.appiconset/Icon-Spotlight-40@2x.png" />
 
 # EasyBrowser
 
