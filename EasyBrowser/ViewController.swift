@@ -23,7 +23,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         textField.resignFirstResponder()
-        if let url = NSURL(string: textField.text) {
+        if let url = NSURL(string: textField.text!) {
             webView.loadRequest(NSURLRequest(URL: url))
         }
         return true
