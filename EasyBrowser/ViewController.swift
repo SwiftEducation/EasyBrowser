@@ -21,9 +21,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func openPage(sender: UIButton) {
-        if let url = NSURL(string: "http://developer.apple.com") {
-            let request = NSURLRequest(URL: url)
+    @IBAction func openPage(_ sender: UIButton) {
+        if let url = URL(string: "http://developer.apple.com") {
+            let request = URLRequest(url: url)
             webView.loadRequest(request)
         }
     }
