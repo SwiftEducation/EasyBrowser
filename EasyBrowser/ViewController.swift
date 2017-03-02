@@ -21,10 +21,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
 
-    func textFieldShouldReturn(textField: UITextField) -> Bool {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
-        if let url = NSURL(string: textField.text!) {
-            webView.loadRequest(NSURLRequest(URL: url))
+        if let url = URL(string: textField.text!) {
+            webView.loadRequest(URLRequest(url: url))
         }
         return true
     }
